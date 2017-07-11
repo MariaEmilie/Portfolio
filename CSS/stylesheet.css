@@ -1,0 +1,43 @@
+{
+  box-sizing:border-box;
+}
+
+.navigation{
+  float:right;
+  margin-top: 50px;
+  font-family: "Cormorant Light", Garamond, sans-serif;
+}
+
+.nav{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px
+}
+
+h1{
+  font-family: "Cormorant Light", Garamond, sans-serif;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.ul{
+  margin-top: 150px;
+  width: 100%;
+  display: flex;
+
+  /* margin:left: 0px;
+  margin-right:0px;
+  margin-bottom: 0px;
+  padding: 0px;*/
+}
+
+
+
+.content{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
