@@ -5,8 +5,11 @@
 .navigation{
   float:right;
   margin-top: 50px;
-  font-family: "Cormorant Light", Garamond, sans-serif;
+  font-family: "Cormorant", serif;
 }
+
+
+/*font-family: "Cormorant Light", Garamond, sans-serif;*/
 
 .nav{
   display: inline-block;
@@ -15,24 +18,33 @@
 }
 
 h1{
-  font-family: "Cormorant Light", Garamond, sans-serif;
-  font-size: 30px;
+  font-family: "Cormorant", serif;
+  font-weight: lighter;
+  font-size: 20px;
   margin-top: 50px;
   margin-left: 50px;
   display: inline-block;
 }
 
 .ul{
-  margin-top: 150px;
-  width: 100%;
-  display: flex;
-
-  /* margin:left: 0px;
-  margin-right:0px;
-  margin-bottom: 0px;
-  padding: 0px;*/
+    width: 90%;
+    margin-top:150px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Cormorant", serif;
 }
 
+/*
+  margin-top: 150px;
+  display: flex;
+  align-items: center; */
+
+/*.ul{
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
 
 
 .content{
