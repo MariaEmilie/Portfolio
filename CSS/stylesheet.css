@@ -9,9 +9,6 @@
   font-family: "Cormorant", serif;
 }
 
-
-/*font-family: "Cormorant Light", Garamond, sans-serif;*/
-
 .nav{
   display: inline-block;
   margin-left: 25px;
@@ -20,7 +17,7 @@
 
 h1{
   font-family: "Cormorant", serif;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 50px;
   margin-left: 100px;
   display: inline-block;
@@ -29,11 +26,11 @@ h1{
 
 h2{
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .ul{
-    margin-top: 80px;
+    margin-top: 100px;
     padding-left: 0px;
     font-family: "Cormorant", serif;
     text-align: center;
@@ -41,8 +38,7 @@ h2{
 
 .content{
   display: inline-block;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 50px;
   text-align: center;
 }
 
@@ -54,15 +50,24 @@ h2{
 }
 
 .thumb2{
-  width:250px;
-  height:350px;
+  width:300px;
+  height:300px;
   overflow: hidden;
-  margin-bottom: 40px;
+  text-align: center;
 }
 
-.thumb3{
-  width:250px;
-  height:350px;
-  overflow: hidden;
-  margin-bottom: 40px;
+.gegenstaendlich1 {
+  left: 50%;
+  margin-left: -100%;
+  position: relative;
+  width: auto;
+  height: 300px;
+}
+
+.gegenstaendlich2 {
+  left: 50%;
+  margin-left: -100%;
+  position: relative;
+  width: auto;
+  width: 300px;
 }
