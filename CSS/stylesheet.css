@@ -42,32 +42,17 @@ h2{
   text-align: center;
 }
 
-.thumb1{
-  width:250px;
-  height:350px;
-  overflow: hidden;
-  margin-bottom: 40px;
-}
-
-.thumb2{
+.thumb{
   width:300px;
   height:300px;
   overflow: hidden;
   text-align: center;
 }
 
-.gegenstaendlich1 {
+.querzentriert {
   left: 50%;
   margin-left: -100%;
   position: relative;
   width: auto;
   height: 300px;
-}
-
-.gegenstaendlich2 {
-  left: 50%;
-  margin-left: -100%;
-  position: relative;
-  width: auto;
-  width: 300px;
 }
