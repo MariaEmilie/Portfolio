@@ -2,6 +2,7 @@
   box-sizing:border-box;
 }
 
+/*ul navigation bar*/
 .navigation{
   float:right;
   margin-top: 50px;
@@ -9,12 +10,28 @@
   font-family: "Cormorant", serif;
 }
 
+/*home, about, contact*/
 .nav{
   display: inline-block;
   margin-left: 25px;
   margin-right: 25px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+/*thumbnails startscreen hochformat*/
+.thumb1{
+  width:250px;
+  height:350px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+/*Maria Emilie Bürger*/
 h1{
   font-family: "Cormorant", serif;
   font-size: 20px;
@@ -24,6 +41,7 @@ h1{
   font-weight: lighter;
 }
 
+/*Abstrakt, Gegenständlich, Portrait*/
 h2{
     font-weight: lighter;
     font-size: 15px;
@@ -36,6 +54,7 @@ h2{
     text-align: center;
 }
 
+/*list item einzelne Bilder*/
 .content{
   display: inline-block;
   margin: 50px;
