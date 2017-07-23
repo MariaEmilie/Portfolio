@@ -127,20 +127,6 @@ width: 100%
   position: relative;
   width: auto;
   height: 300px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-
-.gegenstaendlich2{
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 
 
