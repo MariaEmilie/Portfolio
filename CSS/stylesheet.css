@@ -65,8 +65,18 @@ h2{
   margin-bottom: 40px;
 }
 
+/*
+.quer{
+  position: absolute;
+  left: 50%;
+  margin-left: -100%;
+  position: relative;
+  width: auto;
+  height: 350px;
+}
+
 .image{
-width: 100%
+  width: 100%;
   opacity:1;
   display: block;
   transition: 0.5 ease;
@@ -102,6 +112,50 @@ width: 100%
   font-family: Arial;
 }
 
+*/
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  margin: auto;
+  margin-top: 40px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: black;
+  font-family: "Cormorant", serif;
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
 .thumb{
   width:300px;
   height:300px;
@@ -130,7 +184,6 @@ width: 100%
 }
 
 
-/*Kontaktformular*/
 @media screen {
 form {
   background-color: white;
@@ -206,7 +259,7 @@ textarea: focus {/*findet ein aktives Input-Feld. Pseudoklasse :focus entdeckt, 
 /*About*/
 
 .container-about{
-  width:70%;
+  width:50%;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -218,7 +271,5 @@ textarea: focus {/*findet ein aktives Input-Feld. Pseudoklasse :focus entdeckt, 
 
 .vita{
   float: right;
-  width: 500px;
-  /*list-style: none;*/
-  list-style: circle;
+  width: 300px;
 }
