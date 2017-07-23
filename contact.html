@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine erste Website</title>
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body>
+
+    <div class="header">
+
+      <h1>Maria Emilie Bürger</h1>
+      <ul class="navigation">
+        <li class="nav">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="nav">
+          <a href="about.html">About</a>
+        </li>
+        <li class="nav">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+
+    <!--Kontaktformular | läuft über formular-chef.de-->
+  <form class="contact-form" action="http://www.formular-chef.de/fc.cgi" method="post">
+    <input type="hidden" name="empfaenger" value="mia.die.indianerin@gmx.de">
+
+    <div>
+      <label for="besuchername">Name</label><input type="text" id="besuchername" name="besuchername">
+    </div>
+
+    <div>
+      <label for="besuchermail">E-Mail Adresse</label>
+      <input type="email" id="besuchermail" name="besuchermail">
+    </div>
+
+    <div>
+      <label for="nachricht">Nachricht</label>
+      <textarea id="nachricht" name="nachricht" cols="20"rows="5"></textarea>
+    </div>
+
+    <div>
+      <input type="submit" value="Abschicken">
+      <input type="reset" value="Abbrechen">
+    </div>
+
+  </form>
+
+  </body>
+
+</html>

@@ -2,6 +2,7 @@
   box-sizing:border-box;
 }
 
+
 /*ul navigation bar*/
 .navigation{
   float:right;
@@ -23,12 +24,8 @@ a {
   font-weight: lighter;
 }
 
-/*thumbnails startscreen hochformat*/
-.thumb1{
-  width:250px;
-  height:350px;
-  overflow: hidden;
-  margin-bottom: 40px;
+a:hover {
+    color: #C8C8C8;
 }
 
 /*Maria Emilie Bürger*/
@@ -48,7 +45,7 @@ h2{
 }
 
 .ul{
-    margin-top: 100px;
+    margin-top: 50px;
     padding-left: 0px;
     font-family: "Cormorant", serif;
     text-align: center;
@@ -58,14 +55,57 @@ h2{
 .content{
   display: inline-block;
   margin: 50px;
+}
+
+/*thumbnails startscreen hochformat*/
+.thumb1{
+  width:250px;
+  height:350px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.image{
+width: 100%
+  opacity:1;
+  display: block;
+  transition: 0.5 ease;
+  height: auto;
+}
+
+.text-wrapper{
+  opacity: 0;
+  transition: 0.5 ease;
+  background-color: #ffffff;
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%,-50%);
+  margin-top:-30%;
+  width: 35%;
+  height: auto;
+}
+
+.image-wrapper:hover .text-wrapper{
+  opacity: 0.9;
+}
+
+.image-wrapper:hover .image{
+  opacity: 0.3;
+}
+
+.description {
   text-align: center;
+  width:100%;
+  color:black;
+  font-family: Arial;
 }
 
 .thumb{
   width:300px;
   height:300px;
   overflow: hidden;
-  text-align: center;
 }
 
 .querzentriert {
@@ -75,3 +115,77 @@ h2{
   width: auto;
   height: 300px;
 }
+
+
+/*Kontaktformular*/
+@media screen {
+form {
+  background-color: white;
+  font-family:'Cormorant', Courier, mono; sans-serif;
+  font-size: 15px;
+  width: 320px;
+  padding: 1em;
+  margin: auto;
+  margin-top: 200px;
+  margin-left: 0px;
+  line-height: 1em;
+}
+}
+
+.contact-form{
+  margin: auto;
+  margin-top: 100px;
+}
+
+form > div{
+  margin-bottom: 1em;
+}
+
+label{/* Abstand von Ihr Name & Kasten zum nächsten Ihre E-mail-Adresse & Kasten usw.*/
+  display: block;
+  cursor: pointer;
+  margin-bottom: 0.25em;
+}
+
+input,
+textarea { /*Eingabefelder 1 und 2 als auch beide Buttons*/
+  font-family:'Cormorant', Courier, mono; sans-serif;
+  font-size: 15px;
+  width: 310px;
+  padding: 0.25em;
+  margin-bottom: 1em;
+  background-color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+}
+
+input[type='submit']{ /*Abschicken Button*/
+  background: white;
+  border-style: solid;
+  border-width: thin;
+  width: 100px;
+  text-align: center;
+  float: right;
+}
+
+input[type='reset']{ /*Abbrechen Button*/
+  background: white;
+  border-style: solid;
+  border-width: thin;
+  width: 100px;
+}
+
+textarea{ /*Textfeld bei Ihre Nachricht*/
+  max-width: 100%;
+  min-height: 7em;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+}
+
+input: focus;
+textarea: focus {/*findet ein aktives Input-Feld. Pseudoklasse :focus entdeckt, ob ein Feld aktiviert wurde – entweder durch einen Klick mit der Maus in das Feld oder durch eine Navigation mit dem Tabulator der Tastatur.*/
+  background-color: #ffeda0;
+}
+/*Ende Kontaktformular*/
