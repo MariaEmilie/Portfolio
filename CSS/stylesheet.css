@@ -105,15 +105,42 @@ width: 100%
 .thumb{
   width:300px;
   height:300px;
+  position: relative;
   overflow: hidden;
 }
 
+/*
 .querzentriert {
+  position: absolute;
   left: 50%;
   margin-left: -100%;
   position: relative;
   width: auto;
   height: 300px;
+}
+*/
+
+.querzentriert {
+  position: absolute;
+  left: 50%;
+  margin-left: -100%;
+  position: relative;
+  width: auto;
+  height: 300px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+.gegenstaendlich2{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 
@@ -207,4 +234,5 @@ textarea: focus {/*findet ein aktives Input-Feld. Pseudoklasse :focus entdeckt, 
   float: right;
   width: 500px;
   /*list-style: none;*/
+  list-style: circle;
 }
