@@ -260,4 +260,9 @@ textarea: focus {
     width: 100%;
 
   }
+
+form {
+  margin-top: 100px;
+}
+
 }
