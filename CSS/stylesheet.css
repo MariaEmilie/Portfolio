@@ -2,12 +2,24 @@
   box-sizing:border-box;
 }
 
+/*Maria Emilie Bürger*/
+
+
+h1{
+  font-family: "Cormorant", serif;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: inline-block;
+  font-weight: lighter;
+}
 
 /*ul navigation bar*/
 .navigation{
   float:right;
+  padding-left: 0;
   margin-top: 50px;
-  margin-right: 100px;
   font-family: "Cormorant", serif;
 }
 
@@ -28,15 +40,6 @@ a:hover {
     color: #C8C8C8;
 }
 
-/*Maria Emilie Bürger*/
-h1{
-  font-family: "Cormorant", serif;
-  font-size: 20px;
-  margin-top: 50px;
-  margin-left: 100px;
-  display: inline-block;
-  font-weight: lighter;
-}
 
 /*Abstrakt, Gegenständlich, Portrait*/
 h2{
@@ -64,55 +67,6 @@ h2{
   overflow: hidden;
   margin-bottom: 40px;
 }
-
-/*
-.quer{
-  position: absolute;
-  left: 50%;
-  margin-left: -100%;
-  position: relative;
-  width: auto;
-  height: 350px;
-}
-
-.image{
-  width: 100%;
-  opacity:1;
-  display: block;
-  transition: 0.5 ease;
-  height: auto;
-}
-
-.text-wrapper{
-  opacity: 0;
-  transition: 0.5 ease;
-  background-color: #ffffff;
-  position:relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%,-50%);
-  margin-top:-30%;
-  width: 35%;
-  height: auto;
-}
-
-.image-wrapper:hover .text-wrapper{
-  opacity: 0.9;
-}
-
-.image-wrapper:hover .image{
-  opacity: 0.3;
-}
-
-.description {
-  text-align: center;
-  width:100%;
-  color:black;
-  font-family: Arial;
-}
-
-*/
 
 .container {
   position: relative;
@@ -182,7 +136,6 @@ h2{
   width: auto;
   height: 300px;
 }
-
 
 @media screen {
 form {
@@ -272,4 +225,40 @@ textarea: focus {/*findet ein aktives Input-Feld. Pseudoklasse :focus entdeckt, 
 .vita{
   float: right;
   width: 300px;
+}
+
+
+
+@media(max-width: 768px){
+  
+  .header {
+    float: none;
+    text-align: center;
+  }
+
+  h1 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+.navigation {
+    float: none;
+    margin-top: 20px;
+}
+
+.container-about{
+    margin-top: 50px;
+}
+
+
+  .bild{
+    float: none;
+  }
+
+  .vita {
+    float: none;
+    margin-top: 50px;
+
+  }
+
 }
