@@ -117,17 +117,6 @@ h2{
   overflow: hidden;
 }
 
-/*
-.querzentriert {
-  position: absolute;
-  left: 50%;
-  margin-left: -100%;
-  position: relative;
-  width: auto;
-  height: 300px;
-}
-*/
-
 .querzentriert {
   position: absolute;
   left: 50%;
@@ -160,14 +149,14 @@ form > div{
   margin-bottom: 1em;
 }
 
-label{/* Abstand von Ihr Name & Kasten zum nächsten Ihre E-mail-Adresse & Kasten usw.*/
+label{
   display: block;
   cursor: pointer;
   margin-bottom: 0.25em;
 }
 
 input,
-textarea { /*Eingabefelder 1 und 2 als auch beide Buttons*/
+textarea {
   font-family:'Cormorant', Courier, mono; sans-serif;
   font-size: 15px;
   width: 310px;
@@ -179,7 +168,7 @@ textarea { /*Eingabefelder 1 und 2 als auch beide Buttons*/
   border-color: gray;
 }
 
-input[type='submit']{ /*Abschicken Button*/
+input[type='submit']{
   background: white;
   border-style: solid;
   border-width: thin;
@@ -188,14 +177,14 @@ input[type='submit']{ /*Abschicken Button*/
   float: right;
 }
 
-input[type='reset']{ /*Abbrechen Button*/
+input[type='reset']{
   background: white;
   border-style: solid;
   border-width: thin;
   width: 100px;
 }
 
-textarea{ /*Textfeld bei Ihre Nachricht*/
+textarea{
   max-width: 100%;
   min-height: 7em;
   border-style: solid;
@@ -204,13 +193,12 @@ textarea{ /*Textfeld bei Ihre Nachricht*/
 }
 
 input: focus;
-textarea: focus {/*findet ein aktives Input-Feld. Pseudoklasse :focus entdeckt, ob ein Feld aktiviert wurde – entweder durch einen Klick mit der Maus in das Feld oder durch eine Navigation mit dem Tabulator der Tastatur.*/
+textarea: focus {
   background-color: #ffeda0;
 }
-/*Ende Kontaktformular*/
+
 
 /*About*/
-
 .container-about{
   width:50%;
   margin-top: 100px;
@@ -227,10 +215,10 @@ textarea: focus {/*findet ein aktives Input-Feld. Pseudoklasse :focus entdeckt, 
   width: 300px;
 }
 
-
+/*Responsive*/
 
 @media(max-width: 768px){
-  
+
   .header {
     float: none;
     text-align: center;
@@ -260,5 +248,4 @@ textarea: focus {/*findet ein aktives Input-Feld. Pseudoklasse :focus entdeckt, 
     margin-top: 50px;
 
   }
-
 }
