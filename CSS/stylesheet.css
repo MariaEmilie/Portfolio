@@ -241,6 +241,10 @@ textarea: focus {
     margin: auto;
 }
 
+.content {
+    margin: 20px;
+}
+
 
   .bild{
     float: none;
